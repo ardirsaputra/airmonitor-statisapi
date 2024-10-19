@@ -3,12 +3,12 @@
   "data": [
     {
       "location": "H5",
-      "humidity": 45,  // Kelembapan dalam persen
-      "pm25": 12,  // PM2.5 dalam µg/m³
-      "pm10": 20,  // PM10 dalam µg/m³
-      "co2": 400,  // CO2 dalam ppm
-      "temperature": 22,  // Suhu dalam derajat Celsius
-      "aqi": 50  // AQI (Air Quality Index)
+      "humidity": 45, 
+      "pm25": 12,  
+      "pm10": 20, 
+      "co2": 400, 
+      "temperature": 22, 
+      "aqi": 50  
     },
     {
       "location": "H17",
