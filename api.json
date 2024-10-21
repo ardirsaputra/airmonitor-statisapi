@@ -3,21 +3,41 @@
   "data": [
     {
       "location": "H5",
-      "humidity": 45, 
-      "pm25": 12,  
-      "pm10": 20, 
-      "co2": 400, 
-      "temperature": 22, 
-      "aqi": 50  
+      "coordinates": [106.8272, -6.1751],
+      "current": {
+        "weather": {
+          "ts": "2024-10-20T12:00:00.000Z",
+          "temperature": 22,         
+          "humidity": 45,          
+          "co2": 400                  
+        },
+        "pollution": {
+          "ts": "2024-10-20T12:00:00.000Z",
+          "aqius": 50,            
+          "mainus": "pm25",      
+          "p2": 12,                 
+          "p1": 20                
+        }
+      }
     },
     {
       "location": "H17",
-      "humidity": 50,
-      "pm25": 15,
-      "pm10": 25,
-      "co2": 420,
-      "temperature": 24,
-      "aqi": 60
+      "coordinates": [106.8272, -6.1751],
+      "current": {
+        "weather": {
+          "ts": "2024-10-20T12:00:00.000Z",
+          "temperature": 24,       
+          "humidity": 50,           
+          "co2": 420                 
+        },
+        "pollution": {
+          "ts": "2024-10-20T12:00:00.000Z",
+          "aqius": 60,               
+          "mainus": "pm25",     
+          "p2": 15,              
+          "p1": 25                 
+        }
+      }
     }
   ]
 }
